@@ -1,0 +1,3 @@
+admin_asso_admin_homepage:
+    path:     /
+    defaults: { _controller: AdminAssoAdminBundle:Default:index }
