@@ -24,4 +24,10 @@ class Leader extends Member
      * @ORM\GeneratedValue(strategy="AUTO")
      */
     protected $id;
+
+    /**
+     * @var string $role
+     * @ORM\Column(name="role", type="string")
+     */
+    protected $role;
 }

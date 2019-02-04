@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: faubert
- * Date: 03/02/19
- * Time: 03:19
+ * Date: 04/02/19
+ * Time: 12:17
  */
 
 namespace AdminAsso\CoreBundle\Entity;
@@ -11,12 +11,10 @@ namespace AdminAsso\CoreBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Class Contact
+ * Class PlayerProfile
  * @package AdminAsso\CoreBundle\Entity
- * @ORM\Table(name="contact")
- * @ORM\Entity()
  */
-class Contact
+class PlayerProfile
 {
     /**
      * @ORM\Id
@@ -25,10 +23,11 @@ class Contact
      */
     protected $id;
 
-    protected $phone;
+    protected $age;
 
-    protected $cellPhone;
+    protected $size;
 
-    protected $mail;
+    protected $weight;
 
+    protected $picture;
 }

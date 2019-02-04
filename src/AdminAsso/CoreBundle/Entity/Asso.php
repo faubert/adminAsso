@@ -31,7 +31,6 @@ class Asso
      */
     protected $name;
 
-
     protected $location;
 
     protected $contact;

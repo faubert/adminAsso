@@ -1,0 +1,44 @@
+{% extends '::base_back.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+
+{% endblock %}
+
+{% block header %}
+    <header class="header">
+
+    </header>
+{% endblock %}
+
+{% block body %}
+
+    {% block left_side_bar %}
+
+    {% endblock %}
+
+    <aside class="right-side">
+        {% block content_header %}
+            <section class="content-header">
+                <h1>
+                    Dashboard
+                </h1>
+                <ol class="breadcrumb">
+                    {% block breadcrumb %}
+
+                    {% endblock %}
+                </ol>
+            </section>
+        {% endblock %}
+        <section class="content">
+            {% block content %}
+
+            {% endblock %}
+        </section>
+    </aside>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+
+{% endblock %}
