@@ -1,0 +1,24 @@
+training_index:
+  path: /
+  defaults: { _controller: "AdminAssoAdminBundle:Training:indexTraining" }
+
+training_edit:
+  path: /{trainingId}/edit
+  defaults: { _controller: "AdminAssoAdminBundle:Training:editTraining" }
+
+training_update:
+  path: /{trainingId}/update
+  defaults: { _controller: "AdminAssoAdminBundle:Training:updateTraining" }
+
+training_create:
+  path: /create
+  defaults: { _controller: "AdminAssoAdminBundle:Training:createTraining" }
+
+training_confirm_delete:
+  path: /{trainingId}/confirm_delete
+  defaults: { _controller: "AdminAssoAdminBundle:Training:confirmDeleteTraining" }
+
+training_delete:
+  path: /{trainingId}/delete
+  defaults: { _controller: "AdminAssoAdminBundle:Training:deleteTraining" }
+  methods: POST

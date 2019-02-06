@@ -14,14 +14,32 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class AssoController extends Controller
 {
-    private function newForm()
+    public function indexAssoAction()
     {
-        $asso = new Asso();
 
-        return $this->createForm($this->get('form.type.asso'), $asso)->createView();
     }
 
-    public function indexAssoAction()
+    public function editAssoAction()
+    {
+
+    }
+
+    public function createAssoAction()
+    {
+
+    }
+
+    public function updateAssoAction()
+    {
+
+    }
+
+    public function confirmDeleteAssoAction()
+    {
+
+    }
+
+    public function deleteAssoAction()
     {
 
     }

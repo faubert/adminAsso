@@ -1,3 +1,63 @@
 admin_asso_admin_homepage:
     path:     /
     defaults: { _controller: AdminAssoAdminBundle:Default:index }
+
+admin_asso_admin_bundle_asso:
+    resource: "@AdminAssoAdminBundle/Resources/config/routing/asso.yml"
+    prefix: /admin/dashboard/asso
+
+admin_asso_admin_bundle_coach:
+    resource: "@AdminAssoAdminBundle/Resources/config/routing/coach2.yml"
+    prefix: /admin/dashboard/coach
+
+admin_asso_admin_bundle_contact:
+    resource: "@AdminAssoAdminBundle/Resources/config/routing/contact.yml"
+    prefix: /admin/dashboard/contact
+
+admin_asso_admin_bundle_game:
+    resource: "@AdminAssoAdminBundle/Resources/config/routing/game.yml"
+    prefix: /admin/dashboard/game
+
+admin_asso_admin_bundle_leader:
+    resource: "@AdminAssoAdminBundle/Resources/config/routing/leader.yml"
+    prefix: /admin/dashboard/leader
+
+admin_asso_admin_bundle_location:
+    resource: "@AdminAssoAdminBundle/Resources/config/routing/location.yml"
+    prefix: /admin/dashboard/location
+
+admin_asso_admin_bundle_location_type:
+    resource: "@AdminAssoAdminBundle/Resources/config/routing/location_type.yml"
+    prefix: /admin/dashboard/location_type
+
+admin_asso_admin_bundle_player:
+    resource: "@AdminAssoAdminBundle/Resources/config/routing/player.yml"
+    prefix: /admin/dashboard/player
+
+admin_asso_admin_bundle_player_profile:
+    resource: "@AdminAssoAdminBundle/Resources/config/routing/player_profile.yml"
+    prefix: /admin/dashboard/player_profile
+
+admin_asso_admin_bundle_team:
+    resource: "@AdminAssoAdminBundle/Resources/config/routing/team.yml"
+    prefix: /admin/dashboard/team
+
+admin_asso_admin_bundle_team_category:
+    resource: "@AdminAssoAdminBundle/Resources/config/routing/team_category.yml"
+    prefix: /admin/dashboard/team_category
+
+admin_asso_admin_bundle_training:
+    resource: "@AdminAssoAdminBundle/Resources/config/routing/training.yml"
+    prefix: /admin/dashboard/training
+
+admin_asso_admin_bundle_volunteer:
+    resource: "@AdminAssoAdminBundle/Resources/config/routing/volunteer.yml"
+    prefix: /admin/dashboard/volunteer
+
+admin_asso_admin_bundle_registration:
+    resource: "@AdminAssoAdminBundle/Resources/config/routing/registration.yml"
+    prefix: /admin/dashboard/registration
+
+admin_asso_admin_bundle_planning:
+    resource: "@AdminAssoAdminBundle/Resources/config/routing/planning.yml"
+    prefix: /admin/dashboard/planning

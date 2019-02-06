@@ -1,0 +1,24 @@
+team_category_index:
+  path: /
+  defaults: { _controller: "AdminAssoAdminBundle:TeamCategory:indexTeamCategory" }
+
+team_category_edit:
+  path: /{teamCategoryId}/edit
+  defaults: { _controller: "AdminAssoAdminBundle:TeamCategory:editTeamCategory" }
+
+team_category_update:
+  path: /{teamCategoryId}/update
+  defaults: { _controller: "AdminAssoAdminBundle:TeamCategory:updateTeamCategory" }
+
+team_category_create:
+  path: /create
+  defaults: { _controller: "AdminAssoAdminBundle:TeamCategory:createTeamCategory" }
+
+team_category_confirm_delete:
+  path: /{teamCategoryId}/confirm_delete
+  defaults: { _controller: "AdminAssoAdminBundle:TeamCategory:confirmDeleteTeamCategory" }
+
+team_category_delete:
+  path: /{teamCategoryId}/delete
+  defaults: { _controller: "AdminAssoAdminBundle:TeamCategory:deleteTeamCategory" }
+  methods: POST

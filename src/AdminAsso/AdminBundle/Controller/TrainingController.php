@@ -13,5 +13,33 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class TrainingController extends Controller
 {
+    public function indexTrainingAction()
+    {
 
+    }
+
+    public function editTrainingAction()
+    {
+
+    }
+
+    public function createTrainingAction()
+    {
+
+    }
+
+    public function updateTrainingAction()
+    {
+
+    }
+
+    public function confirmDeleteTrainingAction()
+    {
+
+    }
+
+    public function deleteTrainingAction()
+    {
+
+    }
 }

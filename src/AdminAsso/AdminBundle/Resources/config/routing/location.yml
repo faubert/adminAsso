@@ -1,0 +1,24 @@
+location_index:
+  path: /
+  defaults: { _controller: "AdminAssoAdminBundle:Location:indexLocation" }
+
+location_edit:
+  path: /{locationId}/edit
+  defaults: { _controller: "AdminAssoAdminBundle:Location:editLocation" }
+
+location_update:
+  path: /{locationId}/update
+  defaults: { _controller: "AdminAssoAdminBundle:Location:updateLocation" }
+
+location_create:
+  path: /create
+  defaults: { _controller: "AdminAssoAdminBundle:Location:createLocation" }
+
+location_confirm_delete:
+  path: /{locationId}/confirm_delete
+  defaults: { _controller: "AdminAssoAdminBundle:Location:confirmDeleteLocation" }
+
+location_delete:
+  path: /{locationId}/delete
+  defaults: { _controller: "AdminAssoAdminBundle:Location:deleteLocation" }
+  methods: POST

@@ -1,0 +1,24 @@
+planning_index:
+  path: /
+  defaults: { _controller: "AdminAssoAdminBundle:Planning:indexPlanning" }
+
+planning_edit:
+  path: /{planningId}/edit
+  defaults: { _controller: "AdminAssoAdminBundle:Planning:editPlanning" }
+
+planning_update:
+  path: /{planningId}/update
+  defaults: { _controller: "AdminAssoAdminBundle:Planning:updatePlanning" }
+
+planning_create:
+  path: /create
+  defaults: { _controller: "AdminAssoAdminBundle:Planning:createPlanning" }
+
+planning_confirm_delete:
+  path: /{planningId}/confirm_delete
+  defaults: { _controller: "AdminAssoAdminBundle:Planning:confirmDeletePlanning" }
+
+planning_delete:
+  path: /{planningId}/delete
+  defaults: { _controller: "AdminAssoAdminBundle:Planning:deletePlanning" }
+  methods: POST

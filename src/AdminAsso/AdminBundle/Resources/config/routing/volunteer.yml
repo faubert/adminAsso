@@ -1,0 +1,24 @@
+volunteer_index:
+  path: /
+  defaults: { _controller: "AdminAssoAdminBundle:Volunteer:indexVolunteer" }
+
+volunteer_edit:
+  path: /{volunteerId}/edit
+  defaults: { _controller: "AdminAssoAdminBundle:Volunteer:editVolunteer" }
+
+volunteer_update:
+  path: /{volunteerId}/update
+  defaults: { _controller: "AdminAssoAdminBundle:Volunteer:updateVolunteer" }
+
+volunteer_create:
+  path: /create
+  defaults: { _controller: "AdminAssoAdminBundle:Volunteer:createVolunteer" }
+
+volunteer_confirm_delete:
+  path: /{volunteerId}/confirm_delete
+  defaults: { _controller: "AdminAssoAdminBundle:Volunteer:confirmDeleteVolunteer" }
+
+volunteer_delete:
+  path: /{volunteerId}/delete
+  defaults: { _controller: "AdminAssoAdminBundle:Volunteer:deleteVolunteer" }
+  methods: POST

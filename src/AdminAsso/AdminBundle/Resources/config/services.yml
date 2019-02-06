@@ -2,3 +2,89 @@ services:
 #    admin_asso_admin.example:
 #        class: AdminAsso\AdminBundle\Example
 #        arguments: ["@service_id", "plain_value", "%parameter%"]
+
+#############################
+## Forms Type ##
+#############################
+
+form.type.asso:
+  class: AdminAsso\AdminBundle\Form\Type\AssoType
+  arguments:
+    - '@service_container'
+  tags:
+    - { name: form.type, alias: asso_type }
+
+form.type.coach:
+  class: AdminAsso\AdminBundle\Form\Type\CoachType
+  arguments:
+    - '@service_container'
+  tags:
+    - { name: form.type, alias: coach_type }
+
+form.type.contact:
+  class: AdminAsso\AdminBundle\Form\type\ContactType
+  arguments:
+    - '@service_container'
+  tags:
+    - { name: form.type, alias: contact_type }
+
+form.type.game:
+  class: AdminAsso\AdminBundle\Form\Type\GameType
+  arguments:
+    - '@service_container'
+  tags:
+    - { name: form.type, alias: game_type }
+
+form.type.leader:
+  class: AdminAsso\AdminBundle\Form\Type\LeaderType
+  arguments:
+    - '@service_container'
+  tags:
+    - { name: form.type, alias: leader_type }
+
+form.type.location:
+  class: AdminAsso\AdminBundle\Form\Type\LocationType
+  arguments:
+    - '@service_container'
+  tags:
+    - { name: form.type, alias: location_type }
+
+form.type.location_type:
+  class: AdminAsso\AdminBundle\Form\Type\LocationTypeType
+  arguments:
+    - '@service_container'
+
+form.type.planning:
+  class: AdminAsso\AdminBundle\Form\Type\PlanningType
+  arguments:
+    - '@service_container'
+
+form.type.player:
+  class: AdminAsso\AdminBundle\Form\Type\PlayerType
+  arguments:
+    - '@service_container'
+
+form.type.player_profile:
+  class: AdminAsso\AdminBundle\Form\Type\PlayerProfileType
+  arguments:
+    - '@service_container'
+
+form.type.team:
+  class: AdminAsso\AdminBundle\Form\Type\TeamType
+  arguments:
+    - '@service_container'
+
+form.type.team_category:
+  class: AdminAsso\AdminBundle\Form\Type\TeamCategoryType
+  arguments:
+    - '@service_container'
+
+form.type.training:
+  class: AdminAsso\AdminBundle\Form\Type\TrainingType
+  arguments:
+    - '@service_container'
+
+form.type.volunteer:
+  class: AdminAsso\AdminBundle\Form\Type\VolunteerType
+  arguments:
+    - '@service_container'

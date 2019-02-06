@@ -9,9 +9,38 @@
 namespace AdminAsso\AdminBundle\Controller;
 
 
+use AdminAsso\CoreBundle\Entity\Coach;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class CoachController extends Controller
 {
+    public function indexCoachAction()
+    {
 
+    }
+
+    public function editCoachAction()
+    {
+
+    }
+
+    public function createCoachAction()
+    {
+
+    }
+
+    public function updateCoachAction()
+    {
+
+    }
+
+    public function confirmDeleteCoachAction()
+    {
+
+    }
+
+    public function deleteCoachAction()
+    {
+
+    }
 }

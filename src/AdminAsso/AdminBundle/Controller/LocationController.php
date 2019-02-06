@@ -13,5 +13,33 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class LocationController extends Controller
 {
+    public function indexLocationAction()
+    {
 
+    }
+
+    public function editLocationAction()
+    {
+
+    }
+
+    public function createLocationAction()
+    {
+
+    }
+
+    public function updateLocationAction()
+    {
+
+    }
+
+    public function confirmDeleteLocationAction()
+    {
+
+    }
+
+    public function deleteLocationAction()
+    {
+
+    }
 }

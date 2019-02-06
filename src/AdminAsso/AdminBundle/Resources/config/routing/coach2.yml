@@ -1,0 +1,24 @@
+coach_index:
+  path: /
+  defaults: { _controller: "AdminAssoAdminBundle:Coach:indexCoach" }
+
+coach_edit:
+  path: /{coachId}/edit
+  defaults: { _controller: "AdminAssoAdminBundle:Coach:editCoach" }
+
+coach_update:
+  path: /{coachId}/update
+  defaults: { _controller: "AdminAssoAdminBundle:Coach:updateCoach" }
+
+coach_create:
+  path: /create
+  defaults: { _controller: "AdminAssoAdminBundle:Coach:createCoach" }
+
+coach_confirm_delete:
+  path: /{coachId}/confirm_delete
+  defaults: { _controller: "AdminAssoAdminBundle:Coach:confirmDeleteCoach" }
+
+coach_delete:
+  path: /{coachId}/delete
+  defaults: { _controller: "AdminAssoAdminBundle:Coach:deleteCoach" }
+  methods: POST

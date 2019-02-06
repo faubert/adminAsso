@@ -1,0 +1,24 @@
+team_index:
+  path: /
+  defaults: { _controller: "AdminAssoAdminBundle:Team:indexTeam" }
+
+team_edit:
+  path: /{teamId}/edit
+  defaults: { _controller: "AdminAssoAdminBundle:Team:editTeam" }
+
+team_update:
+  path: /{teamId}/update
+  defaults: { _controller: "AdminAssoAdminBundle:Team:updateTeam" }
+
+team_create:
+  path: /create
+  defaults: { _controller: "AdminAssoAdminBundle:Team:createTeam" }
+
+team_confirm_delete:
+  path: /{teamId}/confirm_delete
+  defaults: { _controller: "AdminAssoAdminBundle:Team:confirmDeleteTeam" }
+
+team_delete:
+  path: /{teamId}/delete
+  defaults: { _controller: "AdminAssoAdminBundle:Team:deleteTeam" }
+  methods: POST

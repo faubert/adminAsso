@@ -13,5 +13,33 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class PlayerController extends Controller
 {
+    public function indexPlayerAction()
+    {
 
+    }
+
+    public function editPlayerAction()
+    {
+
+    }
+
+    public function createPlayerAction()
+    {
+
+    }
+
+    public function updatePlayerAction()
+    {
+
+    }
+
+    public function confirmDeletePlayerAction()
+    {
+
+    }
+
+    public function deletePlayerAction()
+    {
+
+    }
 }

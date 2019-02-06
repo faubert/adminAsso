@@ -1,0 +1,24 @@
+contact_index:
+  path: /
+  defaults: { _controller: "AdminAssoAdminBundle:Contact:indexContact" }
+
+contact_edit:
+  path: /{contactId}/edit
+  defaults: { _controller: "AdminAssoAdminBundle:Contact:editContact" }
+
+contact_update:
+  path: /{contactId}/update
+  defaults: { _controller: "AdminAssoAdminBundle:Contact:updateContact" }
+
+contact_create:
+  path: /create
+  defaults: { _controller: "AdminAssoAdminBundle:Contact:createContact" }
+
+contact_confirm_delete:
+  path: /{contactId}/confirm_delete
+  defaults: { _controller: "AdminAssoAdminBundle:Contact:confirmDeleteContact" }
+
+contact_delete:
+  path: /{contactId}/delete
+  defaults: { _controller: "AdminAssoAdminBundle:Contact:deleteContact" }
+  methods: POST

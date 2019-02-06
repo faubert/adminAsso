@@ -1,0 +1,24 @@
+leader_index:
+  path: /
+  defaults: { _controller: "AdminAssoAdminBundle:Leader:indexLeader" }
+
+leader_edit:
+  path: /{leaderId}/edit
+  defaults: { _controller: "AdminAssoAdminBundle:Leader:editLeader" }
+
+leader_update:
+  path: /{leaderId}/update
+  defaults: { _controller: "AdminAssoAdminBundle:Leader:updateLeader" }
+
+leader_create:
+  path: /create
+  defaults: { _controller: "AdminAssoAdminBundle:Leader:createLeader" }
+
+leader_confirm_delete:
+  path: /{leaderId}/confirm_delete
+  defaults: { _controller: "AdminAssoAdminBundle:Leader:confirmDeleteLeader" }
+
+leader_delete:
+  path: /{leaderId}/delete
+  defaults: { _controller: "AdminAssoAdminBundle:Leader:deleteLeader" }
+  methods: POST

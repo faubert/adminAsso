@@ -13,5 +13,33 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class LeaderController extends Controller
 {
+    public function indexLeaderAction()
+    {
 
+    }
+
+    public function editLeaderAction()
+    {
+
+    }
+
+    public function createLeaderAction()
+    {
+
+    }
+
+    public function updateLeaderAction()
+    {
+
+    }
+
+    public function confirmDeleteLeaderAction()
+    {
+
+    }
+
+    public function deleteLeaderAction()
+    {
+
+    }
 }

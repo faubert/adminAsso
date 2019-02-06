@@ -1,0 +1,24 @@
+asso_index:
+  path: /
+  defaults: { _controller: "AdminAssoAdminBundle:Asso:indexAsso" }
+
+asso_edit:
+  path: /{assoId}/edit
+  defaults: { _controller: "AdminAssoAdminBundle:Asso:editAsso" }
+
+asso_update:
+  path: /{assoId}/update
+  defaults: { _controller: "AdminAssoAdminBundle:Asso:updateAsso" }
+
+asso_create:
+  path: /create
+  defaults: { _controller: "AdminAssoAdminBundle:Asso:createAsso" }
+
+asso_confirm_delete:
+  path: /{assoId}/confirm_delete
+  defaults: { _controller: "AdminAssoAdminBundle:Asso:confirmDeleteAsso" }
+
+asso_delete:
+  path: /{assoId}/delete
+  defaults: { _controller: "AdminAssoAdminBundle:Asso:deleteAsso" }
+  methods: POST

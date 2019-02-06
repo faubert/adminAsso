@@ -13,5 +13,33 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class GameController extends Controller
 {
+    public function indexGameAction()
+    {
 
+    }
+
+    public function editGameAction()
+    {
+
+    }
+
+    public function createGameAction()
+    {
+
+    }
+
+    public function updateGameAction()
+    {
+
+    }
+
+    public function confirmDeleteGameAction()
+    {
+
+    }
+
+    public function deleteGameAction()
+    {
+
+    }
 }

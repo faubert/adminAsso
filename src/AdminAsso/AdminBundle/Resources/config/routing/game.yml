@@ -1,0 +1,24 @@
+game_index:
+  path: /
+  defaults: { _controller: "AdminAssoAdminBundle:Game:indexGame" }
+
+game_edit:
+  path: /{gameId}/edit
+  defaults: { _controller: "AdminAssoAdminBundle:Game:editGame" }
+
+game_update:
+  path: /{gameId}/update
+  defaults: { _controller: "AdminAssoAdminBundle:Game:updateGame" }
+
+game_create:
+  path: /create
+  defaults: { _controller: "AdminAssoAdminBundle:Game:createGame" }
+
+game_confirm_delete:
+  path: /{gameId}/confirm_delete
+  defaults: { _controller: "AdminAssoAdminBundle:Game:confirmDeleteGame" }
+
+game_delete:
+  path: /{gameId}/delete
+  defaults: { _controller: "AdminAssoAdminBundle:Game:deleteGame" }
+  methods: POST

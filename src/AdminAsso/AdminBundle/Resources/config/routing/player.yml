@@ -1,0 +1,24 @@
+player_index:
+  path: /
+  defaults: { _controller: "AdminAssoAdminBundle:Player:indexPlayer" }
+
+player_edit:
+  path: /{playerId}/edit
+  defaults: { _controller: "AdminAssoAdminBundle:Player:editPlayer" }
+
+player_update:
+  path: /{playerId}/update
+  defaults: { _controller: "AdminAssoAdminBundle:Player:updatePlayer" }
+
+player_create:
+  path: /create
+  defaults: { _controller: "AdminAssoAdminBundle:Player:createPlayer" }
+
+player_confirm_delete:
+  path: /{playerId}/confirm_delete
+  defaults: { _controller: "AdminAssoAdminBundle:Player:confirmDeletePlayer" }
+
+player_delete:
+  path: /{playerId}/delete
+  defaults: { _controller: "AdminAssoAdminBundle:Player:deletePlayer" }
+  methods: POST

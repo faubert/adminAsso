@@ -13,5 +13,33 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class TeamController extends Controller
 {
+    public function indexTeamAction()
+    {
 
+    }
+
+    public function editTeamAction()
+    {
+
+    }
+
+    public function createTeamAction()
+    {
+
+    }
+
+    public function updateTeamAction()
+    {
+
+    }
+
+    public function confirmDeleteTeamAction()
+    {
+
+    }
+
+    public function deleteTeamAction()
+    {
+
+    }
 }

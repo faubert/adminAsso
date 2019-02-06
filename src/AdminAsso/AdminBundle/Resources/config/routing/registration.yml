@@ -1,0 +1,24 @@
+registration_index:
+  path: /
+  defaults: { _controller: "AdminAssoAdminBundle:Registration:indexRegistration" }
+
+registration_edit:
+  path: /{registrationId}/edit
+  defaults: { _controller: "AdminAssoAdminBundle:Registration:editRegistration" }
+
+registration_update:
+  path: /{registrationId}/update
+  defaults: { _controller: "AdminAssoAdminBundle:Registration:updateRegistration" }
+
+registration_create:
+  path: /create
+  defaults: { _controller: "AdminAssoAdminBundle:Registration:createRegistration" }
+
+registration_confirm_delete:
+  path: /{registrationId}/confirm_delete
+  defaults: { _controller: "AdminAssoAdminBundle:Registration:confirmDeleteRegistration" }
+
+registration_delete:
+  path: /{registrationId}/delete
+  defaults: { _controller: "AdminAssoAdminBundle:Registration:deleteRegistration" }
+  methods: POST

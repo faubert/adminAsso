@@ -13,5 +13,33 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class VolunteerController extends Controller
 {
+    public function indexVolunteerAction()
+    {
 
+    }
+
+    public function editVolunteerAction()
+    {
+
+    }
+
+    public function createVolunteerAction()
+    {
+
+    }
+
+    public function updateVolunteerAction()
+    {
+
+    }
+
+    public function confirmDeleteVolunteerAction()
+    {
+
+    }
+
+    public function deleteVolunteerAction()
+    {
+
+    }
 }
